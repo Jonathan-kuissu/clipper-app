@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clipper — The Best Part</title>
+<meta name="description" content="Clipper is a personal tool used by the YouTube channel The Best Part to prepare and schedule short clips.">
+<style>
+  :root { --text:#1d1f23; --soft:#5b616e; --line:#e3e5ea; --accent:#1a73e8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--text); background:#fff; }
+  header { border-bottom:1px solid var(--line); }
+  .wrap { max-width:760px; margin:0 auto; padding:0 22px; }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  header b { font-size:19px; }
+  nav a { color:var(--soft); text-decoration:none; margin-left:20px; font-size:15px; }
+  nav a:hover { color:var(--accent); }
+  h1 { font-size:34px; line-height:1.2; margin:48px 0 12px; }
+  h2 { font-size:24px; margin:56px 0 8px; padding-top:24px; border-top:1px solid var(--line); }
+  h3 { font-size:18px; margin:28px 0 6px; }
+  p, li { color:var(--text); }
+  .lead { font-size:19px; color:var(--soft); }
+  .date { color:var(--soft); font-size:14px; }
+  a { color:var(--accent); }
+  footer { margin:64px 0 40px; color:var(--soft); font-size:14px; }
+</style>
+</head>
+<body>
+<header><div class="wrap"><b>Clipper</b>
+  <nav><a href="#about">About</a><a href="#privacy">Privacy</a><a href="#terms">Terms</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main class="wrap">
+<h1 id="about">Clipper</h1>
+<p class="lead">Clipper is a personal, non-commercial desktop tool used by the operator of the YouTube channel
+<a href="https://www.youtube.com/@Thebestpart-y2y">The Best Part</a> to prepare short clips from long-form videos
+and to schedule them on that channel.</p>
+
+<h3>What it does</h3>
+<ul>
+  <li>Finds self-contained moments in long videos the operator has the rights to use, and suggests titles, descriptions and thumbnails.</li>
+  <li>Every clip is reviewed and approved by hand before anything is sent to YouTube.</li>
+  <li>Uploads approved clips to the operator's own channel as <strong>private</strong> videos with a scheduled publication date, sets the thumbnail and adds them to a playlist.</li>
+  <li>Reads basic statistics (views, average view duration) of the channel's own clips to see which clips work best.</li>
+</ul>
+<p>Clipper runs only on the operator's own computer. It is not offered to the public, has no user accounts and is used with a single YouTube channel.</p>
+
+<h2 id="privacy">Privacy Policy</h2>
+<p class="date">Last updated: November 7, 2026</p>
+
+<h3>Who this applies to</h3>
+<p>Clipper is used only by its operator, with the operator's own Google account and YouTube channel. It does not collect data from anyone else.</p>
+
+<h3>Data accessed through YouTube API Services</h3>
+<p>With the operator's permission (Google OAuth), Clipper uses the YouTube Data API and the YouTube Analytics API to:</p>
+<ul>
+  <li>upload videos, set thumbnails and manage playlists on the operator's own channel;</li>
+  <li>list the channel's own recent uploads (to avoid uploading the same clip twice);</li>
+  <li>read view counts and average view duration of the channel's own videos.</li>
+</ul>
+<p>Clipper does not access data about other YouTube users, viewers or channels, and does not read comments, subscribers or private messages.</p>
+
+<h3>How data is stored</h3>
+<ul>
+  <li>All data stays on the operator's own computer, in a local database. Nothing is stored on a server.</li>
+  <li>The Google access token is stored locally and is never shared.</li>
+  <li>Statistics are kept only to compare the performance of the channel's own clips.</li>
+</ul>
+
+<h3>Sharing</h3>
+<p>YouTube data obtained through the API is never sold, shared with, or transferred to anyone.
+To find good moments and write titles, Clipper sends the <em>audio and transcript of the source video being edited</em> to a
+speech-to-text service (Deepgram) and a text AI service (Anthropic). No YouTube API data and no personal data about other people is sent to them.</p>
+
+<h3>Deleting data and revoking access</h3>
+<ul>
+  <li>Access can be revoked at any time from <a href="https://myaccount.google.com/permissions">Google Account → Security → Third-party access</a>.</li>
+  <li>Deleting Clipper's data folder on the computer removes all stored data and the access token.</li>
+  <li>On request, all stored statistics about the channel's clips can be deleted at any time.</li>
+</ul>
+
+<h3>Google and YouTube policies</h3>
+<p>Clipper uses YouTube API Services. By using it, the operator agrees to the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. See also the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2 id="terms">Terms of Use</h2>
+<p class="date">Last updated: November 7, 2026</p>
+<ul>
+  <li>Clipper is a private tool for the operator's own channel. It is not available to the public.</li>
+  <li>Only content the operator owns or has permission to use may be processed and uploaded.</li>
+  <li>All uploads follow the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
+  <a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">YouTube API Services Terms of Service</a>.</li>
+  <li>The tool is provided as is, without warranty.</li>
+</ul>
+
+<h2 id="contact">Contact</h2>
+<p>Questions about Clipper or this policy: <a href="mailto:kuissujonathan@gmail.com">kuissujonathan@gmail.com</a></p>
+
+<footer>Clipper · The Best Part · 2026</footer>
+</main>
+</body>
+</html>
